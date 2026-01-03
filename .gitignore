@@ -1,0 +1,24 @@
+# Exclude ai-foundations directory
+ai-foundations/
+
+# Exclude all notebook files
+*.ipynb
+
+# Exclude course directories (which contain notebooks)
+course_1/
+course_2/
+course_3/
+course_4/
+
+# Exclude other unwanted files
+models/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
